@@ -25,7 +25,9 @@ public class ContactUsPage extends CommonUtilities{
    public void clickOnSubmitButton() {
 	   
 	   clickElement(ele_SubmitButton, "Submit button in contact us form without entering the values");
+
 	   waitThread(minimumWait);	
+
    }
    
    public void verifyErrorMessages() {
