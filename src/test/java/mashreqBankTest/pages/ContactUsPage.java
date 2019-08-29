@@ -26,6 +26,7 @@ public class ContactUsPage extends CommonUtilities{
 	   
 	   clickElement(ele_SubmitButton, "Submit button in contact us form without entering the values");
 	   waitThread(minimumWait);
+	   waitThread(minimumWait);
 	
    }
    
